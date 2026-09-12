@@ -1,6 +1,6 @@
 @font-face {
   font-family: Pixelify;
-  src: url('../public/pixel/pixelify-sans.ttf') format('truetype');
+  src: url("../public/pixel/pixelify-sans.ttf") format("truetype");
   font-display: swap;
   font-weight: 400 700;
 }
@@ -63,9 +63,7 @@ img {
 }
 .pocket-app {
   overflow: hidden;
-  background:
-    radial-gradient(ellipse at 30% 27%, #fffdf6 0, transparent 35%),
-    var(--paper);
+  background: radial-gradient(ellipse at 30% 27%, #fffdf6 0, transparent 35%), var(--paper);
 }
 .site-header {
   height: 88px;
@@ -270,7 +268,7 @@ img {
   gap: 12px;
   align-items: center;
 }
-.batch-picker button[aria-pressed='true'] {
+.batch-picker button[aria-pressed="true"] {
   background: #fffdf5;
   color: #6e7155;
   box-shadow: 0 1px 4px #7e603818;
@@ -619,7 +617,7 @@ img {
     transform 0.15s,
     border-color 0.15s;
 }
-.batch-results button[aria-pressed='true'] {
+.batch-results button[aria-pressed="true"] {
   border-color: var(--rarity);
   background: color-mix(in srgb, var(--rarity) 6%, #fffdf4);
 }
@@ -752,7 +750,7 @@ img {
   color: #958b76;
   border-radius: 5px;
 }
-.collection-tabs button[aria-pressed='true'] {
+.collection-tabs button[aria-pressed="true"] {
   background: #eaeede;
   border-color: #dce0ca;
   color: #65794b;
@@ -792,8 +790,7 @@ img {
     border-color 0.18s;
 }
 .pal-tile.owned {
-  background:
-    radial-gradient(ellipse at 50% 43%, var(--family), transparent 70%), #fffdf4;
+  background: radial-gradient(ellipse at 50% 43%, var(--family), transparent 70%), #fffdf4;
   box-shadow: 0 3px 0 #e9e2d2;
 }
 .pal-tile.owned:hover {
@@ -845,8 +842,7 @@ img {
 }
 .pal-tile.is-shiny {
   border-color: #dcca8a;
-  background:
-    radial-gradient(ellipse at 40% 40%, #fff0b9, transparent 75%), #fffbed;
+  background: radial-gradient(ellipse at 40% 40%, #fff0b9, transparent 75%), #fffbed;
 }
 .undiscovered {
   border-style: dashed;
@@ -957,11 +953,7 @@ img {
   flex-direction: column;
   position: relative;
   padding: 33px 25px 27px;
-  background: radial-gradient(
-    ellipse at 50% 40%,
-    var(--family),
-    transparent 68%
-  );
+  background: radial-gradient(ellipse at 50% 40%, var(--family), transparent 68%);
 }
 .close-dialog {
   position: absolute;
@@ -1017,7 +1009,7 @@ img {
   color: #9d8b68;
   font-size: 12px;
 }
-.variant-switch button[aria-pressed='true'] {
+.variant-switch button[aria-pressed="true"] {
   background: #e6ecd6;
   border-color: #c7d2af;
   color: #69794f;
@@ -1122,7 +1114,7 @@ img {
   animation: slow-spin 14s linear infinite;
 }
 .shiny-orbit::after {
-  content: '✦';
+  content: "✦";
   font: 18px var(--pixel);
   color: #c5a147;
   position: absolute;
@@ -1137,12 +1129,10 @@ img {
 @keyframes pal-idle {
   0%,
   100% {
-    transform: translateY(0) scale(1, 1) rotate(-1deg)
-      rotateY(var(--look-x, 0deg));
+    transform: translateY(0) scale(1, 1) rotate(-1deg) rotateY(var(--look-x, 0deg));
   }
   50% {
-    transform: translateY(-5px) scale(1.025, 0.985) rotate(1deg)
-      rotateY(var(--look-x, 0deg));
+    transform: translateY(-5px) scale(1.025, 0.985) rotate(1deg) rotateY(var(--look-x, 0deg));
   }
 }
 @keyframes twinkle {
@@ -1729,7 +1719,7 @@ img {
 .collected-confirmation {
   color: #5d704c;
 }
-.collection-tabs button[aria-pressed='true'] {
+.collection-tabs button[aria-pressed="true"] {
   color: #52643b;
 }
 .rarity-pill,
@@ -1742,4 +1732,17 @@ img {
 }
 .machine-canvas canvas {
   touch-action: pan-y;
+}
+
+/* Anchor the reveal while a three-capsule result row appears. */
+.game-stage {
+  align-items: start;
+}
+.surprise-side {
+  padding-top: 60px;
+}
+@media (max-width: 700px) {
+  .surprise-side {
+    padding-top: 0;
+  }
 }
