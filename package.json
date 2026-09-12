@@ -1,0 +1,38 @@
+{
+  "name": "pocket-pals",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A playful Three.js capsule machine with collectible pixel pals, rare finds, and shiny variants.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shadiazzeh11/pocket-pals.git"
+  },
+  "homepage": "https://shadiazzeh11.github.io/pocket-pals/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "tsc --noEmit",
+    "test": "node --experimental-strip-types scripts/collection.test.mjs"
+  },
+  "dependencies": {
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "three": "0.185.1",
+    "lucide-react": "1.31.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@types/three": "0.185.4",
+    "@vitejs/plugin-react": "6.0.2",
+    "typescript": "5.9.3",
+    "vite": "8.0.13"
+  }
+}
