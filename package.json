@@ -10,9 +10,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shadiazzeh11/pocket-pals.git"
+    "url": "git+https://github.com/tokenmaxxing-ai/pocket-pals.git"
   },
-  "homepage": "https://shadiazzeh11.github.io/pocket-pals/",
+  "homepage": "https://tokenmaxxing-ai.github.io/pocket-pals/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

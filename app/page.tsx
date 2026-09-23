@@ -440,7 +440,7 @@ export default function Home() {
           </button>
           <a
             className="github-link"
-            href="https://github.com/shadiazzeh11/pocket-pals"
+            href="https://github.com/tokenmaxxing-ai/pocket-pals"
             target="_blank"
             rel="noreferrer"
           >
@@ -868,7 +868,7 @@ export default function Home() {
         <div>
           <a href="./credits.html">Credits</a>
           <a
-            href="https://github.com/shadiazzeh11/pocket-pals"
+            href="https://github.com/tokenmaxxing-ai/pocket-pals"
             target="_blank"
             rel="noreferrer"
           >

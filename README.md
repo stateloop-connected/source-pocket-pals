@@ -4,7 +4,7 @@
 
 A cherry-red capsule machine, a quiet cream canvas, and 36 tiny pixel creatures waiting to meet you. Built with React and Three.js. No coins, accounts, or backend.
 
-[**Play Pocket Pals →**](https://shadiazzeh11.github.io/pocket-pals/)
+[**Play Pocket Pals →**](https://tokenmaxxing-ai.github.io/pocket-pals/)
 
 ## A machine with a little personality
 
