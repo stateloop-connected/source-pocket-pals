@@ -1,0 +1,14 @@
+{
+  "build_script": "vite build",
+  "gameplay_or_asset_changes": false,
+  "lockfile": "package-lock.json",
+  "mode": "native_source_build",
+  "repository": "tokenmaxxing-ai/pocket-pals",
+  "schema_version": 1,
+  "source_changes": [
+    ".packaging/plan.json"
+  ],
+  "status": "ready",
+  "upstream_code_executed_locally": false,
+  "upstream_sha": "eeba8e5727c098cc86dc8532b976022ddb80e5fb"
+}
